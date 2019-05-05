@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+# Joke app routes
+
+app_jokes:
+  path: /joke
+  controller: App\Controller\JokeController::index

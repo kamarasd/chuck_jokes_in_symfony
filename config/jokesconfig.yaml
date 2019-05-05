@@ -1,0 +1,5 @@
+jokes_config:
+    number_of_jokes: 1
+    joke_category: array()
+    base_url: api.icndb.com
+
