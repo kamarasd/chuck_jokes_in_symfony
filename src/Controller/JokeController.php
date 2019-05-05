@@ -18,11 +18,6 @@ class JokeController
 {
     public function index()
     {
-
-       /* $num = config('jokesconf.number_of_jokes');
-        $category = config('jokesconf.joke_category');
-        $b_url = config('jokesconf.base_url');*/
-
         $messages = JokeModel::getJokes(10,'','api.icndb.com');
 
         foreach($messages as $key=>$value) {
